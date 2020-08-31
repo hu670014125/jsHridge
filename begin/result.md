@@ -1,7 +1,7 @@
-# onNativeLoad(Object object)
- > H5页面开始加载时主动回调，相当于android Activity生命周期中的onLoad函数，但是不等价，<br>
-   用于监听H5页面的生命周期 `在html的onLoad 之前执行。`
-
+# onNativeResult(Object object)
+ > 当上个页面关闭并返回当前页面时主动回调该函数，相当于android Activity生命周期中的onResult函数，用于获从上一个页面传递过来的数据。
+>` 上一个页面是否主动传递数据该函数都回调，如果上个页面传递不主动传递数据，默认为JavaScript 的空对象，即：{}`
+ 
 > 参数 object.success 回调函数 Object res 参数
 
 <table>
@@ -17,7 +17,7 @@
         <th style="width: 200px">params</th>
         <th style="width: 200px;">Object</th>
         <th style="width: 300px;">
-            通过url传递过来的参数
+            上个页面传递参数
         </th>
     </tr>
     </tbody>

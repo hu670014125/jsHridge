@@ -1,4 +1,4 @@
-# onNativeStart
+# onNativeStart(Object object)
 >H5页面进入运行阶段时主动回调，相当于android Activity生命周期中的onStart函数，用户监听页面的生命周期。
 
 > 参数 object.success 回调函数 Object res 参数
@@ -13,7 +13,7 @@
     </thead>
     <tbody>
     <tr>
-        <th style="width: 200px">data</th>
+        <th style="width: 200px">params</th>
         <th style="width: 200px;">Object</th>
         <th style="width: 300px;">
             通过url传递过来的参数
