@@ -1,7 +1,7 @@
 * 开始
  * [onNativeBridgeReady](begin/ready)
  * [onNativeLoad](begin/load)
- * [onNativeStart](routes/begin?id=onNativeStart)
+ * [onNativeStart](begin/start)
  * [onNativePause](routes/begin?id=onNativePause)
  * [onNativeStop](routes/begin?id=onNativeStop)
  * [onNativeResult](routes/begin?id=onNativeResult)
