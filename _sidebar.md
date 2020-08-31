@@ -1,0 +1,32 @@
+* 开始
+ * [onNativeBridgeReady](begin/ready)
+ * [onNativeLoad](begin/load)
+ * [onNativeStart](routes/begin?id=onNativeStart)
+ * [onNativePause](routes/begin?id=onNativePause)
+ * [onNativeStop](routes/begin?id=onNativeStop)
+ * [onNativeResult](routes/begin?id=onNativeResult)
+ * [onNativeDestroy](routes/begin?id=onNativeDestroy)
+ * [onNativeMenuItemSelected](routes/begin?id=onNativeMenuItemSelected)
+ * [onNativeBackListener](routes/begin?id=onNativeBackListener)
+* 基础
+ * [setResult](routes/navigation)
+ * [addBackListener](routes/navigation)
+ * [addBackListener](routes/navigation)
+* 路由
+ * [navigation](routes/navigation)
+ * [redirect](routes/redirect)
+ * [reLaunch](routes/reLaunch)
+ * [navigateBack](routes/navigateBack)
+* 界面
+ * [setTitle](routes/navigation)
+ * [addMenu](routes/redirect)
+ * [removeMenu](routes/reLaunch)
+ * [removeAllMenu](routes/navigateBack)
+* 设备
+ * [chooseImage](routes/navigation)
+ * [imageToBase64](routes/redirect)
+ * [uploadFile](routes/reLaunch)
+ * [scanCode](routes/navigateBack)
+ * [getSystemInfo](routes/navigateBack)
+
+
