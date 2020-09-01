@@ -9,9 +9,8 @@
  * [onNativeMenuItemSelected](begin/menu)
  * [onNativeBackListener](begin/back)
 * 基础
- * [setResult](routes/navigation)
- * [addBackListener](routes/navigation)
- * [addBackListener](routes/navigation)
+ * [setResult](basis/result)
+ * [addBackListener](basis/back)
 * 路由
  * [navigation](routes/navigation)
  * [redirect](routes/redirect)
