@@ -23,10 +23,10 @@
  * [removeMenu](activity/remove_menu)
  * [removeAllMenu](activity/remove_all_menu)
 * 设备
- * [chooseImage](routes/navigation)
- * [imageToBase64](routes/redirect)
- * [uploadFile](routes/reLaunch)
- * [scanCode](routes/navigateBack)
- * [getSystemInfo](routes/navigateBack)
+ * [chooseImage](device/choose_image)
+ * [imageToBase64](device/image_to_base64)
+ * [uploadFile](device/upload_file)
+ * [scanCode](device/scan_code)
+ * [getSystemInfo](device/system_info)
 
 
