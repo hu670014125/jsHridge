@@ -1,4 +1,4 @@
-# onNativeResult(Object object)
+# window.onNativeResult(Object object)
  > 当上个页面关闭并返回当前页面时主动回调该函数，相当于android Activity生命周期中的onResult函数，用于获从上一个页面传递过来的数据。
 >` 上一个页面是否主动传递数据该函数都回调，如果上个页面传递不主动传递数据，默认为JavaScript 的空对象，即：{}`
  

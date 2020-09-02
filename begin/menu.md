@@ -1,4 +1,4 @@
-# onNativeMenuItemSelected
+# window.onNativeMenuItemSelected
 >当点击原生页面的导航栏按钮时回调该函数。`通过jsBridge.addMenu(Object object)添加导航栏菜单`
 
 > 参数 object.success 回调函数 Object res 参数

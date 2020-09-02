@@ -1,4 +1,4 @@
-# onNativeLoad(Object object)
+# window.onNativeLoad(Object object)
  > H5页面开始加载时主动回调，相当于android Activity生命周期中的onLoad函数，但是不等价，<br>
    用于监听H5页面的生命周期 `在html的onLoad 之前执行。`
 

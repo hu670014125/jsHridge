@@ -1,4 +1,4 @@
-# onNativeBridgeReady(Object object)
+# window.onNativeBridgeReady(Object object)
  > H5和本地通信建立完成后主动回调,H5要调用的所有的本地方法需要在onNativeBridgeReady之后调<br>
 用才生效，onNativeBridgeReady执行完成后会在Window对象中注入jsBridge对象，H5调用本地原<br>
 生的所有方法都是通过该对象调用。`在html的onLoad 之前执行。`

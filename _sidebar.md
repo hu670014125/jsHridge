@@ -1,4 +1,5 @@
 * 开始
+ * [调试模式](begin/debug)
  * [onNativeBridgeReady](begin/ready)
  * [onNativeLoad](begin/load)
  * [onNativeStart](begin/start)
@@ -17,10 +18,10 @@
  * [reLaunch](routes/reLaunch)
  * [navigateBack](routes/navigateBack)
 * 界面
- * [setTitle](routes/navigation)
- * [addMenu](routes/redirect)
- * [removeMenu](routes/reLaunch)
- * [removeAllMenu](routes/navigateBack)
+ * [setTitle](activity/title)
+ * [addMenu](activity/add_menu)
+ * [removeMenu](activity/remove_menu)
+ * [removeAllMenu](activity/remove_all_menu)
 * 设备
  * [chooseImage](routes/navigation)
  * [imageToBase64](routes/redirect)

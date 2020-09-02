@@ -1,6 +1,5 @@
-# jsBridge.setResult(Object object)
-> 可设置当当前页面关闭后要带上一个页面的数据，`setResult`的优先级低于`navigateBack`中的data，也就是说如果通过`setResult`设置返回数据时，再通过`navigateBack`
-  关闭当前页面时传递数据到上一个页面时之前`setResult`设置的数据将会被覆盖。通过`setResult`设置数据后会在：点击设备返回键（android）、点击导航栏返回键、侧滑关闭、`navigateBack`（不设置data字段），时传入上一个页面。
+# jsBridge.removeAllMenu(Object object)
+> 删除当前页面原生导航栏右侧指`所有`菜单，当自定义页面时该方法无效，因为自定义页面时原生导航栏不显示。
 
 > 参数 Object object
 <table>
@@ -14,15 +13,6 @@
     </tr>
     </thead>
     <tbody>
-    <tr>
-        <th style="width: 100px;text-align:left">data</th>
-        <th>object</th>
-        <th></th>
-        <th>是</th>
-        <th style="text-align:left">
-            要返回上个页面的数据
-        </th>
-    </tr>
     <tr>
         <th style="width: 100px;text-align:left">success</th>
         <th>function</th>
@@ -53,6 +43,7 @@
     </tbody>
 </table>
 
+
 > 参数 object.success 回调函数 Object res 参数
 
 <table>
@@ -76,25 +67,15 @@
 
 > 示例代码
 ```js
-     jsBridge.setResult({
-            data: {
-                name: "李四1",
-                age: "32-1",
-                sex: "男-1",
-                msg: "setResult中的参数-1",
-            },
-            success: function (res) {
-                console.log("----success:", res);
 
-            }, fail: function (res) {
-                console.log("----fail:", res);
-            }, complete: function (res) {
-                console.log("----complete:", res);
-            }
-        });
-
-     // 上一个页面接收数据
-     window.onNativeLoad = function (params) {
-        console.log("-------->onNativeLoad接收参数：",params);
-      };
+    jsBridge.removeAllMenu({
+               success: function (res) {
+                   console.log("----success----->removeAllMenu", res);
+   
+               }, fail: function (res) {
+                   console.log("----fail----->removeAllMenu", res);
+               }, complete: function (res) {
+                   console.log("----complete----->removeAllMenu", res);
+               }
+    });
 ```

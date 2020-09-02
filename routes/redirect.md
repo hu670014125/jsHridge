@@ -114,7 +114,7 @@
             <th style="width: 200px">icon</th>
             <th style="width: 200px;">string</th>
             <th style="width: 300px;">
-                菜单显示内置图标，不支持自定义，目前仅支持：add、search、sacn、more
+                菜单显示内置图标，不支持自定义，目前仅支持：add、search、sacn、more，如果其他以外的值这显示text中的文本
             </th>
         </tr>
         <tr>
